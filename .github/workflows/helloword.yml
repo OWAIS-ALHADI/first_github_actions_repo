@@ -7,7 +7,7 @@ on: [push]
 #Difinir des taches (jobs) a excecuter
 jobs:
   say_hello: #Nom de job
-    run-on: ubuntu-latest #Difinir le runner (machine virtuelle) utilisée : Ubuntu
+    runs-on: ubuntu-latest #Difinir le runner (machine virtuelle) utilisée : Ubuntu
 
     steps: #Suite d'etapes a excecuter
       - name: Print Hello #Nom detape
